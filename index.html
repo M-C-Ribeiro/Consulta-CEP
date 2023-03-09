@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="consulta_cep.js" type='module' defer></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Instituto_Federal_do_Paran%C3%A1_-_Marca_Horizontal_2015.svg/2560px-Instituto_Federal_do_Paran%C3%A1_-_Marca_Horizontal_2015.svg.png" alt="">
+    </header>
+    <main class="container">
+        <h1 class="title">Cadastro de Alunos</h1>
+        <div class="row">
+            <div class="inputbox"> <!-- campo nome -->
+                <input type="text" id="nome" required>
+                <label for="nome">Nome</label>
+            </div>
+            <div class="inputbox"> <!-- campo email -->
+                <input type="text" id="email"  required>
+                <label for="email">Email</label>
+             </div>
+        </div>
+        <div class="row">
+            <div class="inputbox"> <!-- campo cep -->
+                <input type="text" id="cep"  required>
+                <label for="cep">CEP</label>
+            </div>
+            <div class="inputbox"> <!-- campo endereço -->
+                <input type="text" id="endereco"  required>
+                <label for="endereco">Endereço</label>
+            </div>
+            <div class="inputbox"> <!-- campo número -->
+                <input type="text" id="numero"  required>
+                <label for="numero">Número</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="inputbox"> <!-- campo bairro -->
+                <input type="text" id="bairro"  required>
+                <label for="bairro">Bairro</label>
+            </div>
+            <div class="inputbox"> <!-- campo cidade -->
+                <input type="text" id="cidade"  required>
+                <label for="cidade">Cidade</label>
+            </div>
+            <div class="inputbox"> <!-- campo estado -->
+                <input type="text" id="estado"  required>
+                <label for="estado">Estado</label>
+            </div>
+            <div class="inputbox"> <!-- campo ibge-->
+                <input type="text" id="ibge"  required>
+                <label for="estado">IBGE</label>
+            </div>
+            <div class="inputbox"> <!-- campo ddd -->
+                <input type="text" id="ddd"  required>
+                <label for="estado">DDD</label>
+            </div>
+            <div class="inputbox"> <!-- campo siafi -->
+                <input type="text" id="siafi"  required>
+                <label for="estado">SIAFI</label>
+            </div>
+        </div>
+        <div class="row">
+            <button id="btnSalvar">Salvar</button> <!-- botão Salvar -->
+            <button id="btnLimpar">Limpar</button> <!-- botão Limpar -->
+        </div>
+        
+    </main>
+    <footer>
+        Prof. Fernando &#169 2022
+    </footer>
+</body>
+</html>
